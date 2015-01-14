@@ -1,0 +1,75 @@
+.rss-faq {
+	margin: 36px 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #e3e3e3;
+}
+
+.rss-faq-item {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.rss-faq-item .rss-faq-title {
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    line-height: 1em;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-left: 32px;
+    padding-right: 48px !important;
+    padding-top: 1em;
+    position: relative;
+}
+.rss-faq-item .rss-faq-title:after {
+    background: none repeat scroll 0 0 #e3e3e3;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.rss-faq-item .rss-faq-title:before {
+    color: #999;
+    content: "+";
+    font-size: 20px;
+    font-weight: 300;
+    height: 32px;
+    line-height: 32px;
+    margin-top: -16px;
+    position: absolute;
+    right: 16px;
+    text-align: center;
+    top: 50%;
+    vertical-align: middle;
+    width: 16px;
+}
+.rss-faq-item.active .rss-faq-title:before {
+    content: "-";
+}
+.rss-faq-item .rss-faq-content {
+    background: none repeat scroll 0 0 #fbfbfb;
+    display: none;
+    position: relative;
+}
+.rss-faq-item .rss-faq-content:after {
+    background: none repeat scroll 0 0 #e3e3e3;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.rss-faq-item.active .rss-faq-content {
+    display: block;
+    padding: 0.5em 32px;
+}
+.rss-faq-item.active .rss-faq-content > * {
+	margin: 1em 0;
+}
