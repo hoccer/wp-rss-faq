@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin Name: RSS-FAQ
-	Plugin URI: 
+	Plugin URI: https://github.com/hoccer/wp-rss-faq
 	Description: RSS-FAQ parses a Wordpress RSS Feed and builds a simple accordion by the post title and content.
 	Version: 1.0.0
 	Author: Peter Amende
